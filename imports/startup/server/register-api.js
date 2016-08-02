@@ -1,2 +1,2 @@
-import '../../api/exampleDomainLogic/methods.js';
-import '../../api/exampleDomainLogic/server/publications.js';
+import '../../api/Card/methods.js';
+import '../../api/Card/server/publications.js';
