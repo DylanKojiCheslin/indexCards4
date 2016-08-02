@@ -2,10 +2,10 @@
 
 import { Meteor } from 'meteor/meteor';
 
-import { Lists } from '../exampleDomainLogic.js';
+import { Lists } from '../Card.js';
 
 // Meteor.publish('ZZZZZZZZZZ', function ZZZZZZPubli() {
-//   return exampleDomainLogicsCollection.find({
+//   return Card.find({
 //     // userId: { $exists: false },
 //   }, {
 //     // fields: Lists.publicFields,

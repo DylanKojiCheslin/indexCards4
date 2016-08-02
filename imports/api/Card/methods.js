@@ -4,4 +4,4 @@ import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 import { DDPRateLimiter } from 'meteor/ddp-rate-limiter';
 import { _ } from 'meteor/underscore';
 
-import { Lists } from './exampleDomainLogic.js';
+import { Lists } from './Card.js';
