@@ -2,7 +2,7 @@
 
 import { Meteor } from 'meteor/meteor';
 
-import { Card } from '../Card.js';
+import { Card } from '../Cards.js';
 
 // Meteor.publish('ZZZZZZZZZZ', function ZZZZZZPubli() {
 //   return Card.find({

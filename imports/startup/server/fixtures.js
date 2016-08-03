@@ -1,4 +1,4 @@
 import { Meteor } from 'meteor/meteor';
-import { Card } from '../../api/Card/Card.js';
+import { Cards } from '../../api/Cards/Cards.js';
 
 // if the database is empty on server start, create some sample data.

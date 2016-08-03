@@ -25,4 +25,6 @@ kadira:blaze-layout
 zimme:active-route
 accounts-ui
 accounts-password
-jagi:astronomy
+modules
+aldeed:collection2
+aldeed:autoform

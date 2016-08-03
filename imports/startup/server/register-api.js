@@ -1,2 +1,2 @@
-import '../../api/Card/methods.js';
-import '../../api/Card/server/publications.js';
+import '../../api/Cards/methods.js';
+import '../../api/Cards/server/publications.js';
