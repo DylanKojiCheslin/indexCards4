@@ -1,0 +1,12 @@
+{
+  "private": {
+    "StartupPopulateDB": true,
+    "StartupData": {
+      "CardsArray": [
+        {"question": "whats updog","answer": "the call free altertive to calldog"},
+        {"question": "sup","answer": "nada"},
+        {"question": "yo","answer": "nananana stuff"}
+      ]
+    }
+  }
+}
