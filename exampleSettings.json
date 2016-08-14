@@ -3,9 +3,13 @@
     "StartupPopulateDB": true,
     "StartupData": {
       "CardsArray": [
-        {"question": "whats updog","answer": "the call free altertive to calldog"},
-        {"question": "sup","answer": "nada"},
-        {"question": "yo","answer": "nananana stuff"}
+        {"question": "asdfasdfasdf","answer": "asdfasdfasdfa"},
+        {"question": "qwerty","answer": "qwertyqwerty"},
+        {"question": "qwertyqwerty","answer": "qwerty"}
+      ],
+      "TagsArray":[
+        {"text": "poiuypoiuy"},
+        {"text": "poiuy"}
       ]
     }
   }
