@@ -2,13 +2,13 @@ import { Meteor } from 'meteor/meteor';
 import { Template } from 'meteor/templating';
 import { Mongo } from 'meteor/mongo';
 import { Cards } from '../../api/Cards/Cards.js';
-import './cardList.html';
+import './cardsList.html';
 
-Template.cardList.onCreated(function cardListOnCreated() {
-  this.subscribe('cardListPublication');
+Template.cardsList.onCreated(function cardsListOnCreated() {
+  this.subscribe('cardsListPublication');
 });
 
-Template.cardList.helpers({
+Template.cardsList.helpers({
   theCards(){
      return Cards.find();
   },

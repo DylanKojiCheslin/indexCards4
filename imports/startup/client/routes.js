@@ -17,3 +17,10 @@ FlowRouter.route('/tags', {
     BlazeLayout.render('tagsList', {});
   },
 });
+
+FlowRouter.route('/cards', {
+  name: 'Cards.list',
+  action() {
+    BlazeLayout.render('cardsList', {});
+  },
+});

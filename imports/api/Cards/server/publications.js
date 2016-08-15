@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import { Cards } from '../Cards.js';
 
-Meteor.publish('cardListPublication', function cardListPublicationFunciton() {
+Meteor.publish('cardsListPublication', function cardsListPublicationFunciton() {
   return Cards.find();
 });
