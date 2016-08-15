@@ -6,3 +6,9 @@ import { ActiveRoute } from 'meteor/zimme:active-route';
 import { FlowRouter } from 'meteor/kadira:flow-router';
 import './app-body.html';
 import '../components/cardList.js';
+
+Template.App_body.events({
+  "click #js-go-to-tags-button"(){
+     FlowRouter.go('Tags.list');
+  }
+});
