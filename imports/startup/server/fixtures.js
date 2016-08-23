@@ -9,17 +9,16 @@ Meteor.startup(() => {
   const _defaultExampleCards = Meteor.settings.private.StartupData.CardsArray;
   const _defaultExampleTags = Meteor.settings.private.StartupData.TagsArray;
 
-  if (_theCardsDbIsEmpty && _exampleDocsShouldBeCreated && _defaultExampleCards) {
-    _defaultExampleCards.forEach((card) => {
-      Cards.insert(card);
+  if (_theTagsDbIsEmpty && _exampleDocsShouldBeCreated && _defaultExampleTags) {
+    _defaultExampleTags.forEach((tag) => {
+      Tags.insert(tag);
       }
     );
   }
 
-  if (_theTagsDbIsEmpty && _exampleDocsShouldBeCreated && _defaultExampleTags) {
-    console.log(_defaultExampleTags);
-    _defaultExampleTags.forEach((tag) => {
-      Tags.insert(tag);
+  if (_theCardsDbIsEmpty && _exampleDocsShouldBeCreated && _defaultExampleCards) {
+    _defaultExampleCards.forEach((card) => {
+      Cards.insert(card);
       }
     );
   }

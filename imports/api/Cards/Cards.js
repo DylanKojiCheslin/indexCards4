@@ -11,6 +11,10 @@ Cards.schema = new SimpleSchema({
     type: String,
     label: "answer"
   },
+  listTags: {
+    type: [String],
+    optional: true,
+    label: "tags"}
 });
 
 Cards.attachSchema(Cards.schema);
