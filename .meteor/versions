@@ -71,8 +71,6 @@ mdg:validated-method@1.1.0
 mdg:validation-error@0.5.1
 meteor@1.2.17
 meteor-base@1.0.4
-meteorhacks:aggregate@1.3.0
-meteorhacks:collection-utils@1.2.0
 minifier-css@1.2.14
 minifier-js@1.2.14
 minimongo@1.0.17
@@ -83,7 +81,6 @@ modules-runtime@0.7.6
 momentjs:moment@2.10.6
 mongo@1.1.11
 mongo-id@1.0.5
-mongo-livedata@1.0.12
 mousetrap:mousetrap@1.4.6_1
 npm-bcrypt@0.9.1
 npm-mongo@1.5.47
@@ -97,6 +94,7 @@ reactive-dict@1.1.8
 reactive-var@1.0.10
 reload@1.1.10
 retry@1.0.8
+reywood:publish-composite@1.4.2
 routepolicy@1.0.11
 service-configuration@1.0.10
 session@1.1.6

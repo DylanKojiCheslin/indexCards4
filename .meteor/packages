@@ -29,5 +29,6 @@ modules@0.7.6
 aldeed:collection2
 aldeed:autoform
 babrahams:constellation
-meteorhacks:aggregate
 shell-server
+check
+reywood:publish-composite
